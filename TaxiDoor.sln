@@ -5,11 +5,14 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiDoor.Data", "TaxiDoor.Data\TaxiDoor.Data.csproj", "{6754B1C5-C8D6-4EAC-9579-0385E4474C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiDoor.Persistance", "TaxiDoor.Persistance\TaxiDoor.Persistance.csproj", "{AF5A7288-4D63-4794-A175-499AAA854320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiDoor.Persistance", "TaxiDoor.Persistance\TaxiDoor.Persistance.csproj", "{AF5A7288-4D63-4794-A175-499AAA854320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiDoor.WEB", "TaxiDoor.WEB\TaxiDoor.WEB.csproj", "{ED81E4E1-2854-4565-967E-E558CC316D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiDoor.WEB", "TaxiDoor.WEB\TaxiDoor.WEB.csproj", "{ED81E4E1-2854-4565-967E-E558CC316D6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiDoor.Service", "TaxiDoor.Service\TaxiDoor.Service.csproj", "{8CB86007-743D-4241-8CAD-A8BB466FFC88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiDoor.Service", "TaxiDoor.Service\TaxiDoor.Service.csproj", "{8CB86007-743D-4241-8CAD-A8BB466FFC88}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6754B1C5-C8D6-4EAC-9579-0385E4474C92} = {6754B1C5-C8D6-4EAC-9579-0385E4474C92}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

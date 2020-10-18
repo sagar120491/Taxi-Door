@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaxiDoor.Data\TaxiDoor.Data.csproj" />
+    <ProjectReference Include="..\TaxiDoor.Persistance\TaxiDoor.Persistance.csproj" />
+  </ItemGroup>
+
 </Project>
