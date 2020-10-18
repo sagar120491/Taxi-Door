@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Brainwork.TAXI.Data\Brainwork.TAXI.Data.csproj" />
+    <ProjectReference Include="..\Brainwork.TAXI.Persistance\Brainwork.TAXI.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
